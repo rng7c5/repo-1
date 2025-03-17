@@ -31,10 +31,7 @@ volatile int servo1_angle;//set variable light
 String servo2;//string type variable servo2
 volatile int servo2_angle;//set variable servo2_angle
 
-volatile int soil;//set variable soil
-volatile int val;//set variable val
-volatile int value_led2;//set variable value_led2
-volatile int water;//set variable water
+
 
 void setup() {
   Serial.begin(9600);//set baud rate to 9600
