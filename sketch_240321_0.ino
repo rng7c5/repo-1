@@ -1,35 +1,4 @@
-//call the relevant library file
-//changed
-#include <Servo.h>
-#include <Wire.h>
-#include <LiquidCrystal_I2C.h>
-//Set the communication address of I2C to 0x27, display 16 characters every line, two lines in total
-LiquidCrystal_I2C mylcd(0x27, 16, 2);
 
-//set ports of two servos to digital 9 and 10
-Servo servo_10;
-Servo servo_9;
-
-volatile int btn1_num;//set variable btn1_num
-volatile int btn2_num;//set variable btn2_num
-volatile int button1;//set variable button1
-volatile int button2;//set variable button2
-String fans_char;//string type variable fans_char
-volatile int fans_val;//set variable fans_char
-volatile int flag;//set variable flag
-volatile int flag2;//set variable flag2
-volatile int flag3;//set variable flag3
-volatile int gas;//set variable gas
-volatile int infrar;//set variable infrar
-String led2;//string type variable led2
-volatile int light;//set variable light
-String pass;//string type variable pass
-String passwd;//string type variable passwd
-
-String servo1;//string type variable servo1
-volatile int servo1_angle;//set variable light
-String servo2;//string type variable servo2
-volatile int servo2_angle;//set variable servo2_angle
 
 
 
